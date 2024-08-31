@@ -20,7 +20,7 @@ Run the script from the command line with the following options:
 
 bash
 Copy code
-python script.py [-d DOMAIN] [-o OUTPUT] [-f FILE]
+python3 NiduStatusInspector.py [-d DOMAIN] [-o OUTPUT] [-f FILE]
 -d DOMAIN : The domain name to extract URLs from and check.
 -o OUTPUT : The file to save the results of the URL status checks.
 -f FILE : The file containing URLs to check.
@@ -29,14 +29,14 @@ Extract and check URLs from a domain:
 
 bash
 Copy code
-python script.py -d https://example.com -o results.txt
+python3 NiduStatusInspector.py -d https://example.com -o results.txt
 This command extracts URLs from https://example.com, checks their statuses, and saves the results to results.txt.
 
 Check URLs from a file:
 
 bash
 Copy code
-python script.py -f urls.txt -o status_results.txt
+python3 NiduStatusInspector.py -f urls.txt -o status_results.txt
 This command reads URLs from urls.txt, checks their statuses, and saves the results to status_results.txt.
 
 Customization
