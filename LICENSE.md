@@ -48,4 +48,4 @@ By downloading, using, or distributing (in part or in whole) this Project/Code, 
 
 **Contact**
 
-For any questions or concerns regarding this EULA, please submit an issue or contact the project maintainers via the GitHub repository: [https://github.com/MRKNIGHT-NIDU/MRKNIGHT-NIDU](https://github.com/MRKNIGHT-NIDU/MRKNIGHT-NIDU)
+For any questions or concerns regarding this EULA, please submit an issue or contact the project maintainers via the GitHub repository: [https://github.com/MRKNIGHT-NIDU/NiduStatusInspector](https://github.com/MRKNIGHT-NIDU/NiduStatusInspector)
