@@ -12,21 +12,28 @@ Result Export: Saves results to a file for easy analysis and record-keeping.
 Installation
 To use this tool, ensure you have Python installed on your system. The script requires the requests and beautifulsoup4 libraries, which can be installed via pip.
 
+
+INSTALLATION:
+```
+git clone https://github.com/MRKNIGHT-NIDU/NiduStatusInspector.git
+cd NiduStatusInspector
+python3 NiduStatusInspector.py -d https://example.com -o results.txt
+```
 bash
 Copy code
 pip install requests beautifulsoup4
 Usage
 Run the script from the command line with the following options:
 
-bash
-Copy code
+USING:
+```
 python3 NiduStatusInspector.py [-d DOMAIN] [-o OUTPUT] [-f FILE]
 -d DOMAIN : The domain name to extract URLs from and check.
 -o OUTPUT : The file to save the results of the URL status checks.
 -f FILE : The file containing URLs to check.
 Examples
 Extract and check URLs from a domain:
-
+```
 bash
 Copy code
 python3 NiduStatusInspector.py -d https://example.com -o results.txt
